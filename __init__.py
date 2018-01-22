@@ -1,3 +1,15 @@
+"""A VIM tutor file for Mamba"""
+__pluginname__ = "VIM Tutor"
+__author__ = "Marco Laspe"
+__credits__ = ["Andrei Kopats", "Bryan A. Jones"]
+__license__ = "GPL3"
+__version__ = "0.1.0"
+__maintainer__ = "Marco Laspe"
+__email__ = "marco@rockiger.com"
+__status__ = "Beta"
+# This plugin is a copy of the Enki vimtutor plugin
+# https://github.com/andreikop/enki/tree/master/enki/plugins/vimtutor
+
 import os.path
 
 from PyQt5.QtWidgets import QMessageBox
